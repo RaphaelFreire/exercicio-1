@@ -1,7 +1,9 @@
 const eplusDevList = ['Parça', 'Galego', 'Xará', 'Baqueta', 'Na', 'Lindo', 'Pablito', 'Bahia']
 
 function listDevs(list){
-
+  list.map(item => {
+    console.log(item)
+  })
 }
 
 listDevs(eplusDevList)
